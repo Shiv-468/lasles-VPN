@@ -5,14 +5,36 @@
     padding: 0;
     list-style-type: none !important;
     text-decoration: none !important;
-    box-sizing: border-box;
+    box-sizing: border-box !important;
 }
 
 /*-------------------- font family's------------------- */
+.f-f-rubik {
+    font-family: 'Rubik', sans-serif !important;
+}
+
+.f-size {
+    font-size: 25px;
+}
+
+.f-weight {
+    font-weight: 500;
+}
+
+.font-2020 {
+    color: #AFB5C0;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.color {
+    color: #4F5665;
+}
 
 .city {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -20,7 +42,6 @@
 
 .las-f-f {
     color: #0B132A;
-    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -29,7 +50,6 @@
 
 .vpn-f-f {
     color: #0B132A;
-    font-family: 'Rubik', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -38,7 +58,6 @@
 
 .link-f-f {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -47,8 +66,6 @@
 
 .h1-font {
     color: #0B132A;
-    font-family: 'Rubik', sans-serif;
-    ;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -58,7 +75,6 @@
 
 .p1-font {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -67,9 +83,24 @@
     width: 100%;
 }
 
+.box-1-h {
+    color: #0B132A;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.box-1-p {
+    color: #4F5665;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
 .font-1 {
     color: #0B132A;
-    font-family: 'Rubik', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -79,7 +110,6 @@
 
 .p2-font {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -91,7 +121,6 @@
 .free-plan {
     color: #0B132A;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -101,7 +130,6 @@
 .free {
     color: #0B132A;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -111,7 +139,6 @@
 .choose-f-f {
     color: #0B132A;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
     font-size: 25px;
     font-style: normal;
     font-weight: 500;
@@ -120,7 +147,6 @@
 .p3-font {
     color: #4F5665;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -131,7 +157,6 @@
 
 .slider-para {
     color: #0B132A;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -141,7 +166,6 @@
 .name {
     color: #0B132A;
     text-align: center;
-    font-family: 'Rubik', sans-serif;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -149,7 +173,6 @@
 
 .f-para {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -160,7 +183,6 @@
 
 .span-vpn {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -169,7 +191,6 @@
 
 .footer-link {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -178,7 +199,6 @@
 
 .card-2-hed {
     color: #0B132A;
-    font-family: 'Rubik', sans-serif;
     font-size: 28px;
     font-style: normal;
     font-weight: 500;
@@ -188,7 +208,6 @@
 
 .card-2-para {
     color: #4F5665;
-    font-family: 'Rubik', sans-serif;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -201,15 +220,20 @@ h1 {
     margin-bottom: 0;
 }
 
+h2 {
+    margin-bottom: 0;
+}
+
+h3 {
+    margin-bottom: 0;
+}
 
 .gap-10 {
     gap: 10px;
 }
-
-
-
-
-
+.mb-15{
+    margin-bottom: 15px;
+}
 .mt-150 {
     margin-top: 150px;
 }
@@ -221,11 +245,17 @@ ul {
 .gap-40 {
     gap: 40px;
 }
-ul{
+
+ul {
     padding-left: 0;
 }
+
 p {
     margin-bottom: 0 !important;
+}
+
+h5 {
+    margin-bottom: 0;
 }
 
 h4 {
@@ -240,11 +270,13 @@ h4 {
     margin-top: 130px;
 }
 
+.mb-80 {
+    padding-bottom: 80px;
+}
+
 .mt-20 {
     margin-top: 20px;
 }
-
-
 
 .mt-50 {
     margin-top: 50px;
@@ -257,8 +289,6 @@ h4 {
 .mt-90 {
     margin-top: 90px;
 }
-
-
 
 .pt-60 {
     margin-top: 60px;
@@ -292,6 +322,12 @@ h4 {
     border-radius: 50px;
     border: 1px solid #F53855;
     background-color: #FFF;
+    color: #F53855;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
 }
 
 .nav-btn:hover {
@@ -327,7 +363,6 @@ h4 {
     box-shadow: -1px 0px 58px 17px rgba(0, 0, 0, 0.18);
 }
 
-
 .bg-color {
     background-color: #FAFAFA;
 }
@@ -359,6 +394,17 @@ h4 {
     border: 2px solid #F53838;
     box-shadow: 0 30px 38px -20px #F53838;
     color: #FAFAFA;
+    color: #FFF;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+}
+
+.card-2-btn:hover {
+    background: #FFF;
+    color: #F53838;
 }
 
 .card-btn {
@@ -446,7 +492,6 @@ h4 {
     border: 2px solid #F53838;
     border-radius: 50px;
     background: white;
-
 }
 
 .right-arrow:hover {
@@ -481,8 +526,6 @@ h4 {
     background-color: white;
 }
 
-
-
 .slick-dots {
     position: absolute;
     bottom: -32px;
@@ -497,9 +540,11 @@ h4 {
     .mt-35px {
         margin-top: 35px;
     }
-.pb-10{
-    padding-bottom: 10px;
-}
+
+    .pb-10 {
+        padding-bottom: 10px;
+    }
+
     .pt-150 {
         padding-top: 150px;
     }
@@ -567,7 +612,6 @@ h4 {
         padding: 0;
         margin: 0;
         list-style: none;
-
     }
 }
 
@@ -586,7 +630,7 @@ h4 {
 }
 
 @media (min-width:1200px) {
-    .pl-150{
+    .pl-150 {
         padding-left: 150px;
     }
 }
@@ -605,7 +649,7 @@ h4 {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        position: fixed;
+        position: absolute;
         z-index: 3;
         right: 12px;
         top: 16px;
